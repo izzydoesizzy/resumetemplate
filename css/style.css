@@ -1,29 +1,28 @@
 /**
  * =================================================================== 
  *
- *  Kards v1.0 Main ClearCareer
+ *  ResumeTemplate v1.0 Main ClearCareer
  *  url: clearcareer.ca
  *  06-27-2016
  *  ------------------------------------------------------------------
- *  TOC:
- *  01. webfonts and iconfonts
- *  02. base style overrides
- *  03. typography & general theme styles
- *  04. preloader
- *  05. forms
- *  06. buttons 
- *  07. other components
- *  08. common styles
- *  09. header styles
- *  10. intro
- *  11. about
- *  12. resume
- *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
- *
+ *  Table of Contents:
+ *  01. Header
  * =================================================================== 
  */
+
+/* 01. Header
+ * =================================================================== */
+
+ .header {
+ 	background: #151515 url(http://izzydoesizzy.com/images/intro-bg.jpg) no-repeat center right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 720px;
+    display: table;
+    position: relative;
+    text-align: center;
+ }
