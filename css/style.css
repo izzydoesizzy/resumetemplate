@@ -10,7 +10,8 @@
  *  01. Global Styles
  *  02. Intro
  *  03. Social Icons
- *  04. Section Styles
+ *  04. Icon Fonts
+ *  05. Section Styles
  EXTRAS
 
  * =================================================================== 
@@ -37,7 +38,7 @@
 
 
  .colour-splash {
-    color: #27ae60;
+    color: #0ce3ac;
  }
 
 
@@ -81,7 +82,7 @@
 }
 
 .intro-content h5 {
-    color: #27ae60;
+    color: #0ce3ac;
     font-size: 2.3rem;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -124,9 +125,15 @@
 }
 
 
+/* 04. Icon Font
+ * =================================================================== */
 
+ .lnr {
+    font-size: 4em;
+    color:#fff;
+ }
 
-/* 04. Section Styles
+/* 05. Section Styles
  * =================================================================== */
 
 section {
@@ -144,7 +151,19 @@ section {
     text-align: justify;
 }
 
+.section-colour {
+    background-color: #1abc9c;
+    color: #fff;
+}
 
+.section-colour p {
+    text-align: justify;
+}
+
+.section-heading h2 {
+    padding-bottom: 50px;
+    text-align: center;
+}
 
 
 
