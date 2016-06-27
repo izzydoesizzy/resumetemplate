@@ -32,3 +32,6 @@ Copyright 2016 ClearCareer. Code released under the [Creative Commons 4.0](https
 
 IconMoon
 FontAwesome
+Bruno Rodriguez - Timeline
+https://github.com/itbruno
+https://twitter.com/_brunoweb
