@@ -36,6 +36,13 @@
     cursor: pointer;
  }
 
+ hr {
+    border-top: 3px solid;
+    width: 15%;
+    padding-bottom: 20px;
+
+ }
+
 
  .colour-splash {
     color: #0ce3ac;
@@ -151,6 +158,10 @@ section {
     text-align: justify;
 }
 
+.section-primary {
+    border: #0ce3ac;
+}
+
 .section-colour {
     background-color: #1abc9c;
     color: #fff;
@@ -161,10 +172,12 @@ section {
 }
 
 .section-heading h2 {
-    padding-bottom: 50px;
     text-align: center;
 }
 
+.section-colour {
+    border: #fff;
+}
 
 
 
