@@ -10,8 +10,9 @@
  *  01. Global Styles
  *  02. Intro
  *  03. Social Icons
+ *  04. Section Styles
  EXTRAS
- 
+
  * =================================================================== 
  */
 
@@ -34,10 +35,10 @@
     cursor: pointer;
  }
 
+
  .colour-splash {
     color: #27ae60;
  }
-
 
 
 
@@ -125,6 +126,31 @@
 
 
 
+/* 04. Section Styles
+ * =================================================================== */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profilepic {
+    height: 150px;
+    width: auto;
+    border-radius: 300px;
+}
+
+.section-primary p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
 /* EXTRAS
  * =================================================================== */
 
@@ -195,5 +221,4 @@
 
         /* /Mouse Icon
          * =================================================================== */
-
 
