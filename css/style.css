@@ -12,6 +12,8 @@
  *  03. Social Icons
  *  04. Icon Fonts
  *  05. Section Styles
+ *  06. Timeline Styles
+ *  05. Footer
  EXTRAS
 
  * =================================================================== 
@@ -20,12 +22,18 @@
 /* 01. Basic Styles
  * =================================================================== */
 
+ html {
+    overflow-x: hidden;
+ }
  body {
     font-family: 'Source Sans Pro', sans-serif;
  }
 
  h1 {
     font-weight: bold;
+ }
+
+ h2 {
  }
 
  h5 {
@@ -37,8 +45,8 @@
  }
 
  hr {
-    border-top: 3px solid;
-    width: 15%;
+    border-top: 5px solid;
+    width: 10%;
     padding-bottom: 20px;
 
  }
@@ -55,7 +63,7 @@
  * =================================================================== */
 
  .intro {
- 	background: #151515 url(http://izzydoesizzy.com/images/intro-bg.jpg) no-repeat center right;
+ 	background: #151515 url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80) no-repeat center right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -76,7 +84,7 @@
     width: 100%;
     height: 100%;
     background: #111111;
-    opacity: .85;
+    opacity: .7;
  }
 
  .intro-content {
@@ -171,7 +179,7 @@ section {
     text-align: justify;
 }
 
-.section-heading h2 {
+.section-heading .lead, .section-heading h2 {
     text-align: center;
 }
 
@@ -180,7 +188,32 @@ section {
 }
 
 
+/* 01. Timeline Styles
+ * =================================================================== */
 
+.timeline-icon .fa {
+    color: white;
+    margin: 14px;
+    font-size: 1.7em;
+}
+
+/* 05. Footer
+ * =================================================================== */
+
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    background-color: black;
+    height: 100px;
+    color: #fff;
+
+}
+
+footer p {
+    padding: 15px;
+    text-align: center !important;
+}
 
 
 /* EXTRAS
