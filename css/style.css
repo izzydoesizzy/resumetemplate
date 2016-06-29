@@ -1,9 +1,11 @@
 /**
  * =================================================================== 
  *
- *  ResumeTemplate v1.0 Main ClearCareer
+ *  ResumeTemplate v1.0 ClearCareer
  *  url: clearcareer.ca
- *  06-27-2016
+ *  Design by: Iskender Piyale-Sheard
+ *  website: izzydoesizzy.com
+ *  Created 06-27-2016
  *  ------------------------------------------------------------------
  *  Table of Contents:
 
@@ -42,13 +44,20 @@
 
  a {
     cursor: pointer;
+    color: #1abc9c;
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration:none;
+    color: #1abc9c;
+    opacity: 0.9;
  }
 
  hr {
     border-top: 5px solid #1abc9c;
-    width: 10%;
+    width: 80px;
     padding-bottom: 20px;
-
  }
 
 
@@ -56,13 +65,22 @@
     color: #1abc9c;
  }
 
+ .section-primary span {
+    color: #1abc9c;
+    font-weight: bolder;
+    opacity: 1;
+ }
+
+
+
+
 
 
 
 /* 02. Intro
  * =================================================================== */
 
- .intro {
+ .section-image {
  	background: #151515 url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80) no-repeat center right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -70,24 +88,23 @@
     background-attachment: fixed;
     width: 100%;
     height: 100%;
-    min-height: 720px;
     display: table;
     position: relative;
     text-align: center;
     color: #fff;
  }
 
- .intro-overlay {
+ .img-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: #111111;
-    opacity: .7;
+    opacity: .4;
  }
 
- .intro-content {
+ .intro {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -96,7 +113,11 @@
     transform: translateY(-2.1rem);
 }
 
-.intro-content h5 {
+.intro h1 {
+    font-size: 84px;
+}
+
+.intro h5 {
     color: #1abc9c;
     font-size: 2.3rem;
     margin-bottom: 0;
@@ -105,15 +126,20 @@
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
-.intro span {
+.section-image span {
     text-transform: uppercase;
     font-size: 1.4em;
     padding: 0 10px;
     font-weight: 100;
 }
 
-.intro h1 {
+.section-image h1 {
     margin-top: 0;
+}
+
+.section-image p {
+    font-weight: lighter;
+    opacity: 0.9;
 }
 
 
@@ -139,12 +165,24 @@
   opacity: 0.6;
 }
 
+.social-footer {
+    position: absolute;
+    padding: 15px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-size: 1.7em;
+}
+
 
 /* 04. Icon Font
  * =================================================================== */
 
  .lnr {
-    font-size: 4em;
+    font-size: 4em !important;
     color:#fff;
  }
 
@@ -187,6 +225,11 @@ section {
     border: #fff;
 }
 
+.section-colour hr {
+    border-top: 5px solid #fff;
+ }
+
+
 
 /* 01. Timeline Styles
  * =================================================================== */
@@ -197,6 +240,12 @@ section {
     font-size: 1.7em;
 }
 
+#skills {
+    background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
+    background-attachment: fixed;
+}
+
+
 /* 05. Footer
  * =================================================================== */
 
@@ -205,14 +254,14 @@ footer {
     position: static;
     bottom: 0;
     background-color: black;
-    height: 100px;
     color: #fff;
+    padding: 50px 0;
 
 }
 
 footer p {
     padding: 15px;
-    text-align: center !important;
+    opacity: 0.8;
 }
 
 
@@ -286,4 +335,34 @@ footer p {
 
         /* /Mouse Icon
          * =================================================================== */
+
+ 
+/* Media Queries
+ * =================================================================== */
+
+@media (max-width: 480px) {
+    .social a {
+        padding: 0.9em;
+        font-size: 0.9em;
+    }
+
+    .intro-desc {
+        font-size: 0.7em;
+    }
+
+    .section-image span {
+        padding: 0 4px;
+    }
+
+    .intro h1 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+}
+
 

@@ -34,17 +34,17 @@
 <!-- Header Section 
 ======================================== -->
 
-    <section class="intro">   
+    <section class="section-image">   
 
-   	<div class="intro-overlay"></div>	
+   	<div class="img-overlay"></div>	
 
-   	<div class="intro-content">
+   	<div class="intro">
    		<div class="row">
    			<div class="col-md-12">
 	   			<h5>Hi there</h5>
-	   			<h1 style="font-size: 84px;">I'm Luke Skywalker</h1>
+	   			<h1>I'm Luke Skywalker</h1>
 
-	   			<p class="intro-position">
+	   			<p class="intro-desc">
 	   				<span>Designer</span> 
 	   				<span class="colour-splash">•</span>
 	   				<span>Adventurer</span> 
@@ -83,13 +83,15 @@
 				</div> <!-- /col-md-8 -->  
 		    </div> <!-- /middle row -->  
 		    <div class="bottom">
-			    <div class="mouse-icon">
-					<div class="scroll"></div>
-				</div>
+			    <a href="#about">
+            <div class="mouse-icon">
+					   <div class="scroll"></div>
+				    </div>
+          </a>
 		    </div>
    		</div> <!-- /outer row -->  	
 
-   	</div> <!-- /intro-content --> 
+   	</div> <!-- /intro --> 
 
     </section>
 
@@ -99,15 +101,16 @@
             <div class="col-md-6 col-md-offset-3 text-center">
               <img src="https://pbs.twimg.com/profile_images/641063961144750081/IqosL0KD.jpg" class="profilepic">
               <h2>About Me</h2>
-
-              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <span class="colour-splash">industry's standard</span> dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <hr>
+              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <span>Lorem Ipsum</span> has been the industry's standard dummy text ever since the 1500s, when an <span>unknown printer</span> took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           </div>
       </div>
             
     </section>
 	
-    <section class="section-colour">
+    <section class="section-image" id="skills">
+      <div class="img-overlay"></div> 
     	<div class="container">
         <div class="row">
         	<div class="col-md-12 section-heading">
@@ -135,41 +138,7 @@
           </div>
       </section>
 
-      <section id="skills" class="section-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 section-heading">
-            <h2>Skills</h2>
-            <p class="lead">Here are a few cool things about me</p>
-            <hr>
-          </div>
-        </div>
-          <div class="row">
-           
-            <div class="col-md-6">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac <span class="colour-splash">cursus commodo</span>, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-           </div>
-           <div class="col-md-6">
-              <h2>Heading</h2>
-
-              <div class="progress-pie-chart" data-percent="43">
-                  <div class="ppc-progress">
-                    <div class="ppc-progress-fill"></div>
-                  </div>
-                  <div class="ppc-percents">
-                    <div class="pcc-percents-wrapper">
-                      <span>%</span>
-                    </div>
-                  </div>
-              </div>
-
-              
-
-            </div>
-          </div>
-      </section>
-
+      
 
       <section id="timelinesection" class="section-primary">
      
@@ -178,7 +147,7 @@
           <div class="col-md-12 section-heading">
             <h2>Things I've done</h2>
             <p class="lead">Here are a few cool things about me</p>
-            <hr>
+            <hr class="white">
           </div>
         </div>
 
@@ -274,12 +243,45 @@
 
 
 
-      <footer class = "section-primary">
+      <footer class = "footer">
 
           <div class="container">
             <div class="row">
-              <div class="col-md-12 text-center">
-                <p>&copy; 2016 ClearCareer</p>
+              <div class="col-md-4">
+                <p>Design by: <a href="http://www.izzydoesizzy.com" target="_blank">Iskender Piyale-Sheard</a>
+                  <br>
+                   <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><i class="fa fa-creative-commons"></i> Attribution 4.0 License</a>
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <p>Made with <i class="fa fa-heart"></i> by <a href="http://www.clearcarer.ca" target="_blank"></a>  <a href="http://www.clearcareer.ca" target="_blank">ClearCareer</a>
+                </p>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="social-footer">
+                  <a href="http://www.twitter.com/izzydoesizzy" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="http://www.instagram.com/izzydoesizzy" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <!-- <a href="http://www.dribbble.com/izzydoesizzy" target="_blank">
+                    <i class="fa fa-dribbble fa-3x"></i>
+                  </a> -->
+                  <a href="https://ca.linkedin.com/in/ipiyale" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="https://medium.com/@izzydoesizzy" target="_blank">
+                    <i class="fa fa-medium"></i>
+                  </a>
+                  <a href="http://www.youtube.com/user/izzydoesizzy" target="_blank">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+                  <a href="http://www.github.com/izzydoesizzy" target="_blank">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -292,8 +294,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
