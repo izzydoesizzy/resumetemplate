@@ -86,10 +86,8 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
     width: 100%;
-    height: 100%;
-    display: table;
+    height: 100vh;
     position: relative;
     text-align: center;
     color: #fff;
@@ -106,7 +104,6 @@
  }
 
  .intro {
-    display: table-cell;
     vertical-align: middle;
     text-align: center;
     -webkit-transform: translateY(-2.1rem);
@@ -172,7 +169,7 @@
 }
 
 .social-footer {
-    position: absolute;
+    position: block;
     padding: 15px;
 }
 
@@ -248,7 +245,6 @@ section {
 
 #skills {
     background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
-    background-attachment: fixed;
 }
 
 
@@ -350,6 +346,18 @@ footer p {
     .social a {
         padding: 0.4em;
         font-size: 0.9em;
+    }
+
+    .social-footer {
+        text-align: center;
+        position:block;
+        text-align: center;
+    }
+
+    .social-footer a {
+        padding: 0.3em;
+        font-size: 1.6em;
+
     }
 
     .intro-desc {
