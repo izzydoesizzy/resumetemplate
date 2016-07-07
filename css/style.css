@@ -91,6 +91,7 @@
     position: relative;
     text-align: center;
     color: #fff;
+    display:table;
  }
 
  .img-overlay {
@@ -106,6 +107,7 @@
  .intro {
     vertical-align: middle;
     text-align: center;
+    display:table-cell;
     -webkit-transform: translateY(-2.1rem);
     -ms-transform: translateY(-2.1rem);
     transform: translateY(-2.1rem);
@@ -245,6 +247,7 @@ section {
 
 #skills {
     background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
+    height: auto;
 }
 
 
@@ -383,6 +386,7 @@ footer p {
     #skills {
         background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
         background-position: top center;
+
     }
 }
 
