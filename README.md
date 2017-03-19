@@ -8,6 +8,10 @@ To use this theme, choose one of the following options to get started:
 * Download the latest release on ClearCareer
 * Fork this repository on GitHub
 
+![Edit](/images/image1.png) ![Edit](/images/image2.png)
+![Edit](/images/image3.png) ![Edit](/images/image4.png)
+
+
 ## Bugs and Issues
 
 Have a bug or an issue with this theme? [Open a new issue](https://github.com/clearcareer/ResumeTemplate/issues) here on GitHub.
