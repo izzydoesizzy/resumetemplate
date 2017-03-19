@@ -27,17 +27,6 @@ To use this theme, please take the following steps.
 
 Have a bug or an issue with this theme? [Open a new issue](https://github.com/clearcareer/ResumeTemplate/issues) here on GitHub.
 
-## Creator
-
-This template was created by Iskender Piyale-Sheard, Founder of [ClearCareer](http://clearcareer.ca).
-You can find out more about Iskender here:
-
-* https://twitter.com/izzydoesizzy
-* http://izzydoesizzy.com
-* https://github.com/izzydoesizzy
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
 ## Copyright and License
 
 Copyright 2016 ClearCareer. Code released under the [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/) license.
@@ -47,6 +36,8 @@ Copyright 2016 ClearCareer. Code released under the [Creative Commons 4.0](https
 
 [IconMoon](https://icomoon.io/)  
 [FontAwesome](http://fontawesome.io/)  
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 Bruno Rodriguez - Timeline  
 - [Github: https://github.com/itbruno](https://github.com/itbruno)
