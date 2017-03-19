@@ -34,11 +34,12 @@ Copyright 2016 ClearCareer. Code released under the [Creative Commons 4.0](https
 
 ## Attribution
 
-IconMoon
-FontAwesome
-Bruno Rodriguez - Timeline
-https://github.com/itbruno
-https://twitter.com/_brunoweb
+[IconMoon](https://icomoon.io/)  
+[FontAwesome](http://fontawesome.io/)  
+
+Bruno Rodriguez - Timeline  
+- [Github: https://github.com/itbruno](https://github.com/itbruno)
+- [Twitter: https://twitter.com/_brunoweb](https://twitter.com/_brunoweb)
 
 Train Tracks Photo https://unsplash.com/@reddangelo16
 
