@@ -48,7 +48,7 @@ Train Tracks Photo https://unsplash.com/@reddangelo16
 
 <hr>
 
-This project was developed by Iskender Piyale-Sheard (aka: Izzy), the Community Manager at [Lighthouse Labs](http://bit.ly/izzydoesizzygithub) as a fun side project. 
+This project was developed by **Iskender Piyale-Sheard (aka: Izzy)**, the Community Manager at [Lighthouse Labs](http://bit.ly/izzydoesizzygithub) as a fun side project. 
 
 Come say hi on Twitter [@izzydoesizzy](http://www.twitter.com/izzydoesizzy)! 
 
