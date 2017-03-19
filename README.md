@@ -4,9 +4,19 @@
 
 ## Getting Started
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on ClearCareer
-* Fork this repository on GitHub
+To use this theme, please take the following steps.
+1. Fork this repository on GitHub
+2. Make an edit to your site and commit the change
+3. Go to [http://YourGithubProfile.github.io/resumetemplate](http://izzydoesizzy.github.io/resumetemplate)
+
+## Adding a custom domain name
+1. In the main directory add a file named CNAME (without a file extension)
+2. Open and edit the file, and add your domain name [example.com](#)
+3. Login to your domain registrar and modify the DNS settings
+	- Add a new A Record
+		- Record Type: 	A
+		- Host: 		@
+		- Points to: 	192.30.252.153
 
 ![Edit](/images/image1.png) ![Edit](/images/image2.png)
 ![Edit](/images/image3.png) ![Edit](/images/image4.png)
