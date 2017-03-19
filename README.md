@@ -17,6 +17,7 @@ To use this theme, please take the following steps.
 		- Record Type: 	A
 		- Host: 		@
 		- Points to: 	192.30.252.153
+	- [see more details](http://stackoverflow.com/questions/23375422/how-to-setup-github-pages-to-redirect-dns-requests-from-subdomain-e-g-www-to/23375423#23375423)
 
 ![Edit](/images/image1.png) ![Edit](/images/image2.png)
 ![Edit](/images/image3.png) ![Edit](/images/image4.png)
