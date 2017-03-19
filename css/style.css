@@ -390,4 +390,15 @@ footer p {
     }
 }
 
+@media (max-width: 991px) {
+    .social-footer {
+        text-align: center;
+    }
+
+    footer p {
+    text-align: center;
+    }
+
+}
+
 
