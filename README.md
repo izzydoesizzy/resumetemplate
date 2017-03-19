@@ -29,7 +29,7 @@ Have a bug or an issue with this theme? [Open a new issue](https://github.com/cl
 
 ## Creator
 
-This tempalte was created by Iskender Piyale-Sheard, Founder of [ClearCareer](http://clearcareer.ca).
+This template was created by Iskender Piyale-Sheard, Founder of [ClearCareer](http://clearcareer.ca).
 You can find out more about Iskender here:
 
 * https://twitter.com/izzydoesizzy
