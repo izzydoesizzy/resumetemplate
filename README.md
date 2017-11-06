@@ -1,6 +1,6 @@
-# [ClearCareer](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+# [ClearCareer](http://startbootstrap.com/) 
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+[Resume](https://izzydoesizzy.github.io/resumetemplate/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Izzy Piyale-Sheard](http://izzydoesizzy.com/).
 
 ## Getting Started
 
