@@ -37,7 +37,7 @@ Copyright 2016 ClearCareer. Code released under the [Creative Commons 4.0](https
 [IconMoon](https://icomoon.io/)  
 [FontAwesome](http://fontawesome.io/)  
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+This resume template uses the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 Bruno Rodriguez - Timeline  
 - [Github: https://github.com/itbruno](https://github.com/itbruno)
