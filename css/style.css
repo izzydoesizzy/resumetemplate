@@ -83,7 +83,7 @@
  * =================================================================== */
 
  .section-image {
- 	background: #151515 url(image/IMG_2793.JPG) no-repeat center center;
+     background: #151515 url("/image/IMG_2793.JPG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
