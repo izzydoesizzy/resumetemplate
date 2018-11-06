@@ -73,6 +73,7 @@ hr {
 
 .img-project {
     height: 225px;
+    width: 100%
 }
 
 @media only screen and (max-width: 991px) {
@@ -81,6 +82,15 @@ hr {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .img-project {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
     }
 }
 
