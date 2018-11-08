@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mikeyuchima/resumetemplate/issues"
   },
-  "homepage": "https://github.com/mikeyuchima/resumetemplate#readme"
+  "homepage": "https://github.com/mikeyuchima/resumetemplate#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
